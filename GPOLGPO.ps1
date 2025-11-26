@@ -26,7 +26,7 @@
 # 1. Uncomment this entire block
 # 2. Comment out the network share copy section in Step 2 (below)
 # 3. Update $GitHubUser and repository name in the URLs
-$GitHubUser = "Supportvectorchoice"
+$GitHubUser = "VectorChoiceTechnologies"
 $RepoName = "cis_w11_Standalone_LGPO_Deploy"
 
 $LGPO_RawURL = "https://raw.githubusercontent.com/$GitHubUser/$RepoName/main/LGPO_30/LGPO.exe"
@@ -173,3 +173,4 @@ if ($RebootAfter) {
 Log "==============================="
 Log "CIS LGPO Deployment v$BaselineVersion Finished"
 Log "==============================="
+
