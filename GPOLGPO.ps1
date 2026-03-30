@@ -90,10 +90,10 @@ Log "Cleanup completed."
 # 3. The script will automatically download LGPO.exe and Baseline.zip, unzip the Baseline folder, and then apply the GPOs
 
 # URL to raw LGPO.exe on GitHub
-$LGPO_RawURL = "https://github.com/jcchs2/cis_w11_Standalone_LGPO_Deploy/raw/ecb4a73688a4edaaf041638aca9d53f0a7b17655/LGPO_30/LGPO.exe"
+$LGPO_RawURL = "https://github.com/VectorChoiceTechnologies/cis_w11_Standalone_LGPO_Deploy/raw/main/LGPO_30/LGPO.exe"
 
 # URL to zip of Baseline folder on GitHub
-$Baseline_RawURL = "https://github.com/jcchs2/cis_w11_Standalone_LGPO_Deploy/raw/ecb4a73688a4edaaf041638aca9d53f0a7b17655/Baseline.zip"
+$Baseline_RawURL = "https://github.com/VectorChoiceTechnologies/cis_w11_Standalone_LGPO_Deploy/raw/main/Baseline.zip"
 
 # Local target paths on the client machine
 $LGPO_TargetFolder = "C:\Temp\LGPO\LGPO_30"
